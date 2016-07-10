@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
+using System.Collections.Generic;
 using Microsoft.Bot.Connector;
 using Newtonsoft.Json;
 
@@ -13,6 +14,20 @@ namespace BotManTry
     [BotAuthentication]
     public class MessagesController : ApiController
     {
+        public Dictionary<string,string> PartyProfile { get; set; }
+
+        public List<string> Greetings { get; set; }
+
+        public string Talk { get; set; }
+
+
+        public MessagesController()
+        {
+            PartyProfile = new Dictionary<string,string>();
+            Greetings = new List<string> { "hi", "hii", "hello", "hey", "man", "orderman", "cygnetorderman"};
+            Talk = "Oops! I coudn't understood last message. I'm yet to learn many human conversations :(";
+        }
+
         /// <summary>
         /// POST: api/Messages
         /// Receive a message from a user and reply to it
@@ -22,12 +37,16 @@ namespace BotManTry
             if (activity.Type == ActivityTypes.Message)
             {
                 ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
-                // calculate something for us to return
-                int length = (activity.Text ?? string.Empty).Length;
+                
+                // Chat message text comes in activity.text
+                var message = activity.Text.Trim(' ', '.', '!', ',');
 
-                // return our reply to the user
-                var s = "You sent " + activity.Text + " which was " + length + " characters";
-                Activity reply = activity.CreateReply(s);
+                if(Greetings.Contains(message, StringComparer.OrdinalIgnoreCase))
+                {                    
+                    Talk = "Hey " + activity.From.Name + ", How may I help you!";
+                }
+              
+                Activity reply = activity.CreateReply(Talk);
                 await connector.Conversations.ReplyToActivityAsync(reply);
             }
             else
