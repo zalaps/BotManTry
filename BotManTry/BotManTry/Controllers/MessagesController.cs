@@ -22,16 +22,20 @@ namespace BotManTry
 
         public List<string> HindiGreetings1 { get; set; }
 
-        public string Talk { get; set; }
+        public List<string> OrderDetails { get; set; }
+
+        public List<string> Talk { get; set; }
 
 
         public MessagesController()
         {
             PartyProfile = new Dictionary<string,string>();
-            Greetings = new List<string> { "hi", "hii", "hello", "hey", "man", "orderman", "cygnetorderman"};
+            Greetings = new List<string> { "hi", "hii", "hello", "hey", "man", "orderman", "cygnetorderman", "hi there", "hello there"};
+            OrderDetails = new List<string>();
             HindiGreetings = new List<string> { "kya hal hai?"};
             HindiGreetings1 = new List<string> { "Aur kya chal raha hai?" };
-            Talk = "Oops! I coudn't understood last message. I'm yet to learn many human conversations :(";
+            Talk = new List<string>();
+            Talk.Add("Oops! I coudn't understood last message. I'm yet to learn many human conversations :(");
         }
 
         /// <summary>
@@ -48,21 +52,45 @@ namespace BotManTry
                 var message = activity.Text.Trim(' ', '.', '!', ',');
 
                 if(Greetings.Contains(message, StringComparer.OrdinalIgnoreCase))
-                {                    
-                    Talk = "Hey " + activity.From.Name + ", How may I help you!";
+                {
+                    Talk.Clear();
+                    Talk.Add("Hey " + activity.From.Name + "! As I see, You are propriter of Allstar Footwears and an existing customer of Paragon! \n" 
+                        + "For your ready refernce latest catalog of Paragon product offerings is located at https://cygnetorderman.azurewebsites.net/content/Paragon_10072016_013910.pdf. \n" 
+                        + "What would you like to order today? Let me suggest a way to start. To order 4 cartons of model 3087 with black colour, you may say: 3087-black = 4");
+                }
+                else if (message.Contains("="))
+                {
+                    OrderDetails.Add(message);
+                    Talk.Clear();
+                    Talk.Add("Copy that roger. Let me know once done. I would present an order summary for your approval.");
                 }
                 else if(HindiGreetings.Contains(message, StringComparer.OrdinalIgnoreCase))
                 {
-                    Talk = "Mast hai bhai! Aur sunao! :)";
+                    Talk.Add("Mast hai bhai! Aur sunao! :)");
                 }
                 else if (HindiGreetings1.Contains(message, StringComparer.OrdinalIgnoreCase))
                 {
-                    Talk = "Yahan to FOGG chal raha hai :P";
+                    Talk.Add("Yahan to FOGG chal raha hai!!! :P");
+                }
+                else if (message.Contains("done"))
+                {
+                    var s = "Great! Here is a snap shot from what we have prepared till now. \n";
+                    foreach (var orderDetail in OrderDetails)
+                    {
+                        s = s + orderDetail + " \n";
+                    }
+                    s = s + "Do confirm if everything is OK.";
+                    Talk.Clear();
+                    Talk.Add(s);
                 }
 
-              
-                Activity reply = activity.CreateReply(Talk);
-                await connector.Conversations.ReplyToActivityAsync(reply);
+
+                /* Send all replys */
+                foreach (var talk in Talk)
+                {
+                    Activity reply = activity.CreateReply(talk);
+                    await connector.Conversations.ReplyToActivityAsync(reply);              
+                }               
             }
             else
             {
