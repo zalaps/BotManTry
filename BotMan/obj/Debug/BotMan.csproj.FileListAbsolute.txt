@@ -1,0 +1,29 @@
+D:\GitPrady\BotApplication1\BotApplication1\bin\Bot Application1.dll.config
+D:\GitPrady\BotApplication1\BotApplication1\bin\Bot Application1.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Bot Application1.pdb
+D:\GitPrady\BotApplication1\BotApplication1\bin\Autofac.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Chronic.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.Bot.Connector.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.Rest.ClientRuntime.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Newtonsoft.Json.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.Net.Http.Formatting.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.Web.Http.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.Web.Http.WebHost.dll
+D:\GitPrady\BotApplication1\BotApplication1\bin\Autofac.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.Bot.Connector.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.Rest.ClientRuntime.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\Newtonsoft.Json.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.Net.Http.Formatting.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.Web.Http.xml
+D:\GitPrady\BotApplication1\BotApplication1\bin\System.Web.Http.WebHost.xml
+D:\GitPrady\BotApplication1\BotApplication1\obj\Debug\BotMan.csprojResolveAssemblyReference.cache
+D:\GitPrady\BotApplication1\BotApplication1\obj\Debug\Bot Application1.dll
+D:\GitPrady\BotApplication1\BotApplication1\obj\Debug\Bot Application1.pdb
