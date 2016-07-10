@@ -42,3 +42,4 @@ D:\GitPrady\BotMan\BotManTry\BotManTry\bin\normnfkc.nlp
 D:\GitPrady\BotMan\BotManTry\BotManTry\bin\normnfkd.nlp
 D:\GitPrady\BotMan\BotManTry\BotManTry\obj\Debug\Bot Application1.dll
 D:\GitPrady\BotMan\BotManTry\BotManTry\obj\Debug\Bot Application1.pdb
+D:\GitPrady\BotMan\BotManTry\BotManTry\obj\Debug\BotManTry.csprojResolveAssemblyReference.cache

@@ -18,6 +18,10 @@ namespace BotManTry
 
         public List<string> Greetings { get; set; }
 
+        public List<string> HindiGreetings { get; set; }
+
+        public List<string> HindiGreetings1 { get; set; }
+
         public string Talk { get; set; }
 
 
@@ -25,6 +29,8 @@ namespace BotManTry
         {
             PartyProfile = new Dictionary<string,string>();
             Greetings = new List<string> { "hi", "hii", "hello", "hey", "man", "orderman", "cygnetorderman"};
+            HindiGreetings = new List<string> { "kya hal hai?"};
+            HindiGreetings1 = new List<string> { "Aur kya chal raha hai?" };
             Talk = "Oops! I coudn't understood last message. I'm yet to learn many human conversations :(";
         }
 
@@ -45,6 +51,15 @@ namespace BotManTry
                 {                    
                     Talk = "Hey " + activity.From.Name + ", How may I help you!";
                 }
+                else if(HindiGreetings.Contains(message, StringComparer.OrdinalIgnoreCase))
+                {
+                    Talk = "Mast hai bhai! Aur sunao! :)";
+                }
+                else if (HindiGreetings1.Contains(message, StringComparer.OrdinalIgnoreCase))
+                {
+                    Talk = "Yahan to FOGG chal raha hai :P";
+                }
+
               
                 Activity reply = activity.CreateReply(Talk);
                 await connector.Conversations.ReplyToActivityAsync(reply);
