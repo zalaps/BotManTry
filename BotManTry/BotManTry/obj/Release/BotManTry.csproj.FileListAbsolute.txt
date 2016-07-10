@@ -1,0 +1,45 @@
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Bot Application1.dll.config
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Bot Application1.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Bot Application1.pdb
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Autofac.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Chronic.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.Bot.Builder.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.Bot.Connector.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.Rest.ClientRuntime.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\mscorlib.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Newtonsoft.Json.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.Net.Http.Formatting.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.Web.Http.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.Web.Http.WebHost.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Autofac.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.Bot.Builder.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.Bot.Connector.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.Rest.ClientRuntime.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\Newtonsoft.Json.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.Net.Http.Formatting.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.Web.Http.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\System.Web.Http.WebHost.xml
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\normidna.nlp
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\normnfc.nlp
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\normnfd.nlp
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\normnfkc.nlp
+D:\GitPrady\BotMan\BotManTry\BotManTry\bin\normnfkd.nlp
+D:\GitPrady\BotMan\BotManTry\BotManTry\obj\Release\BotManTry.csprojResolveAssemblyReference.cache
+D:\GitPrady\BotMan\BotManTry\BotManTry\obj\Release\Bot Application1.dll
+D:\GitPrady\BotMan\BotManTry\BotManTry\obj\Release\Bot Application1.pdb
